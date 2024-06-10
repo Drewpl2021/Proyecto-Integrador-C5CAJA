@@ -1,4 +1,7 @@
 package com.example.appcaja.repository;
 
-public interface ProveedoresRepository {
+import com.example.appcaja.entity.Proveedor;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ProveedoresRepository extends JpaRepository<Proveedor, Double> {
 }

@@ -1,4 +1,7 @@
 package com.example.appcaja.repository;
 
-public interface ClienteRepository {
+import com.example.appcaja.entity.Clientes;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ClienteRepository extends JpaRepository<Clientes, Double> {
 }
